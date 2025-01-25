@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Me Perdonas?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="titulo">¿Me perdonas Melissa?</h1>
+    <img src="IMG/img.jpeg" alt="Imagen de amor" id="love-img" class="bounce">
+    <div class="buttons-container">
+        <button id="btn-si" class="btn">Sí</button>
+        <button id="btn-no" class="btn evasive">No</button>
+    </div>
+
+    <div id="modal-no" class="modal hidden">
+        <div class="modal-content slide-in">
+            <span class="close">&times;</span>
+            <p>Ups, si o si vas a decir que sí.</p>
+        </div>
+    </div>
+
+    <div id="modal-si" class="modal hidden">
+        <div class="modal-content slide-in">
+            <span class="close">&times;</span>
+            <p>Asi me gusta  ¡que me perdones!</p>
+            <div id="confetti"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
